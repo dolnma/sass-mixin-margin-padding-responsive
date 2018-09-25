@@ -3,12 +3,16 @@
 SASS Mixin for margin and padding using breakpoints
 
 usage: 
+```
 <div class="pb-xs-10 pb-lg-3 mt-sm-2">
-  something...
- </div>
- 
+something...
+</div> 
+```
+
  compiled --->
  
+ 
+ ```
  @media (min-width: 512px)
 .pb-xs-10 {
     padding-bottom: 10rem;
@@ -21,3 +25,4 @@ usage:
 .mt-sm-2 {
     margin-top: 2rem;
 }
+```
